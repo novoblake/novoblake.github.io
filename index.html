@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+    <script>hljs.highlightAll();</script>
+</head>
+<body>
+    <header>
+        <h1>Ishan Narayan</h1>
+        <p>Computer Vision | UAVs | AI Research</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome! I am working on UAV vision-based landing site selection and depth estimation. This site showcases my projects and research.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>UAV Landing Site Selection</h3>
+            <img src="assets/uav_project.gif" alt="UAV Project">
+            <p>Developed a vision-based model for detecting safe landing zones for UAVs.</p>
+            <pre><code class="python">def detect_landing_zone(image):
+    # Your detection code here
+    return landing_zone</code></pre>
+        </div>
+        
+        <div class="project">
+            <h3>YOLO-Based Inclination Estimation</h3>
+            <img src="assets/yolo_inclination.gif" alt="Inclination Estimation">
+            <p>Using YOLO for estimating terrain inclination for UAV landing.</p>
+            <pre><code class="python">model = load_yolo_model()
+angle = model.predict(image)</code></pre>
+        </div>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://github.com/novoblake">GitHub</a></p>
+    </footer>
+</body>
+</html>
+
